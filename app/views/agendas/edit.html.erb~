@@ -1,4 +1,4 @@
-<h1>Edición Agenda</h1>
+<h1>Editing Agenda</h1>
 
 <%= render 'form' %>
 
