@@ -20,7 +20,7 @@
         <td><%= agenda.numerotelefono %></td>
         <td><%= link_to 'Mostrar', agenda %></td>
         <td><%= link_to 'Editar', edit_agenda_path(agenda) %></td>
-        <td><%= link_to 'Borrar', agenda, method: :delete, data: { confirm: 'Estas Seguro?' } %></td>
+        <td><%= link_to 'Borrar', agenda, method: :delete, data: { confirm: 'Estas Seguro del borrado?' } %></td>
       </tr>
     <% end %>
   </tbody>
